@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    color: rgb(30, 129, 122); 
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    border: 5px solid rgb(66, 102, 131);
+    margin: 25px;
+    padding:45px;
+    background-color:rgb(244, 253, 141);
+}
+
+.product:hover{
+    box-shadow: 10px 10px 10px darkcyan;
+}
+
+p{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(7, 82, 122)
+}
+
+a{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: x-large;
+    color:rgb(7, 82, 122);
+}
+
+hr{
+    visibility: hidden;
+}
+
+.btn{
+    border: 0cm;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
+
+.btn:hover{
+    background-color: white;
+    color: darkcyan;
+    border: 1px solid rgb(7, 82, 122); 
+};
