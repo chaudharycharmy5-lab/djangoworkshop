@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+</head>
+<body>
+    <h1>Marksheet Data Form</h1>
+    <form method="POST" action="/marksheet">
+        {% csrf_token %}
+        Name: <input type="text" name="name"><br><br>
+        Id: <input type="text" name="id"><br><br>
+        Course: <input type="text" name="course"><br><br>
+        Python: <input type="number" name="python" max=100 min=0>/100<br><br>
+        C: <input type="number" name="c" max=100 min=0>/100<br><br>
+        C++: <input type="number" name="cl" max=100 min=0>/100<br><br>
+        Php: <input type="number" name="php"max=100 min=0>/100<br><br>
+        Laravel: <input type="number" name="laravel" max=100 min=0>/100<br><br>
+		<input type="submit" value="Upload Data">
+    </form>
+</body>
+</html>

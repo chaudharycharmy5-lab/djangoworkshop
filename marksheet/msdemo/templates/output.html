@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet View</title>
+	<style>
+		table, th, td {
+		  border:1px solid black;
+		  border-collapse: collapse;	
+		}
+	</style>
+</head>
+<body>
+    <table style="height:100%">
+		<tr>
+			<th colspan=4>SEM 5 EXAM MARKSHEET</th>
+		</tr>
+        <tr>
+			<th>NAME:</th>
+			<td>{{nm}}</td>
+			<th>ID:</th>
+			<td>{{i}}</td>
+		</tr>
+		<tr>
+			<th colspan="2">COURSE:</th>
+			<td colspan="2">{{cou}}</td>
+		</tr>
+		<tr>
+			<th colspan="2">SUBJECT:</th>
+			<th>MARKS OBTAINED:</th>
+			<th>TOTAL MARKS:</th>
+		</tr>
+		<tr>
+			<td colspan="2">PYTHON:</td>
+			<td>{{py}}</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td colspan="2">C LANGUAGE:</td>
+			<td>{{cc}}</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td colspan="2">C++ LANGUAGE:</td>
+			<td>{{ccl}}</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td colspan="2">PHP:</td>
+			<td>{{ph}}</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td colspan="2">LARAVEL:</td>
+			<td>{{la}}</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<th colspan="2">TOTAL MARKS OBTAINED</th>
+			<td>{{total}}</td>
+			<td>500</td>
+		</tr>
+		<tr>
+			<th colspan="2">TOTAL PERCENTAGE OBTAINED</th>
+			<td>{{percen}}</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<th colspan="2">RESULT</th>
+			<td colspan="2">{{res}}</td>
+		</tr>
+    </table>
+</body>
+</html>
