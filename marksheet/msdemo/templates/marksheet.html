@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Marksheet Data Form</h1>
-    <form method="POST" action="/marksheet">
+    <form action="/marksheet" method="post">
         {% csrf_token %}
         Name: <input type="text" name="name"><br><br>
         Id: <input type="text" name="id"><br><br>
