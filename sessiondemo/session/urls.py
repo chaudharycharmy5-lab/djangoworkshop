@@ -11,4 +11,7 @@ urlpatterns=[
     path('dashboard',views.dashboard),
     path('logout',views.logout),
     path('maildemo',views.mailsend),
+    path('count',views.counter),
+    path('contact',views.contactpageview),
+    path('process',views.mailsendprocess),
 ]
